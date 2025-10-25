@@ -1,0 +1,74 @@
+/* Estilo para mi contactos*/
+.contactos{
+         background-color: rgba(255, 255, 255, 0.5);
+         border: 2px solid #ffb300;
+         border-radius: 3px;
+         padding: 15px;
+}
+.contactos h2{
+         color: #ff6f00;
+}
+.contactos p{
+    color: rgba(0, 0, 0, 0.801);
+}
+/*Estilo footer*/
+footer{
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+/*Estilo para mi información adicional*/
+.adicional{
+    background-color: #89939c;
+    border-left: 3ppx solid #007bff;
+    padding: 20px;
+    width: 300px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+.adicional h3{
+     color: #007bff;
+     margin-bottom: 15px;
+
+}
+.adicional h4{
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.adicional p{
+    margin-bottom: 15px;
+    line-height: 1.6;
+/*Estilo para el apartado de mis links*/
+}
+.redes-sociales{
+    list-style: none;
+    padding: 0;
+}
+.redes-sociales li{
+    margin-bottom: 10px;
+}
+.redes-sociales a{
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.redes-sociales a:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/*Imagen de fondo*/
+body {
+    background-image: url('fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+}

@@ -1,0 +1,60 @@
+/*Estilo del cuerpo*/
+body{
+     background-color:honeydew;
+     font-family: Arial, sans-serif;
+  
+        }
+/*Estilo para header*/
+#header{
+   color: white;
+   background-color: rgb(6, 22, 160);
+   text-align: center;
+   padding: 10px;
+   
+}  
+h2{
+   color: brown;
+   background-color: antiquewhite;
+   text-decoration: underline solid black;
+}      
+h3{
+   margin-left: 50px;
+   text-decoration:underline blue;
+}
+
+/*Estilo para mi section*/
+#pensamientos{
+   text-align: justify;
+   margin-left: 50px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   border: 2px solid #030255;
+   cursor: pointer;
+   padding: 10px;
+   transition: ease 0.3s; 
+   
+  
+}
+#pensamientos:hover{
+   border-width: 5px;
+}
+.p1{
+   border: 1.5px;
+}
+/*Estilo del footer*/
+#decoracion{
+         background-color: bisque;
+         display: flex;
+         justify-content: space-between;  
+         align-items: center;              
+         margin-left: 50px;
+         background-color: #333;
+         color: white;
+         
+}
+#decoracion small{
+   margin: 0 auto;
+}
+#decoration h5 {
+   margin: 0;
+}

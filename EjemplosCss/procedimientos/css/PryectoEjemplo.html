@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Personal</title>
+     <!--    Estilo internos-->
+         <style>
+                body{
+                    font-family: Arial,  sans-serif;
+                    margin: 0;
+                    background-color: #f4f4f4;
+                    margin-right: 325px;
+                }
+                header{
+                    background-color: rgba(82, 217, 71, 0.8);
+                    color: white;
+                    text-align: center;
+                    
+                    padding: 20px;
+                }
+                ul{
+                    list-style-type: square;
+                }
+                .pasatiempos{
+                            border: 2px solid #020277;
+                            padding: 6px;
+                            width: fit-content;
+                            margin: 20px;
+                            background-color: beige;
+                            cursor: pointer;
+                            transition: ease 0.5s;
+                        }
+                .pasatiempos:hover{
+                    border-width: 3px;
+                }
+                .pasatiempos h2{
+                    margin-top: 0;
+
+                }
+                .pasatiempos ul{
+                    margin-bottom: 0;
+                }       
+         </style>
+         <!--Enlaces al archivo externo .css-->
+         <link rel="stylesheet" href="PryectoEjemplo.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Bienvenido a Mi Página Personal 
+        </h1>
+        <p>Mi proyecto final de aplicación de estilo con CSS, donde aprendí <br>
+            a dar estilo  en linea, internos y externos (utilizando el archivo .CSS).
+        </p>
+    </header>
+    <!--Sección 1: Usar estilos en línea-->
+    <section style="background-color: rgba(240, 240, 240, 0.7); 
+    border: 1px solid #0097a7;">
+        <h2 style="color: #00796b; margin-left: 20px;">Sobre Mi</h2>
+        <p style="font-size: 16px; margin-left: 20px;
+        margin-right: 20px; text-align: justify;">
+            Soy estudiante de informática y estoy aprendiendo a crear páginas web con HTML y CSS. <br>
+            También me gustaría conseguir un empleo sobre esta area laboral, me gustaría dejar <br> algunos de mi contactos para que en caso de que alguien sepa de algunos 
+            pues puedan comunicarse con migo.
+        </p>
+    </section>
+    <!--Sección 2: para dar estilo desde un archivo interno-->
+    <section>
+        <div class="pasatiempos">
+            <h2>Mi Pasatiempos</h2>
+            <ul>
+                <li>Leer sobre tecnología</li>
+                <li>Diseñar páginas web</li>
+                <li>Escuchar música</li>
+                <li>Jugar Baloncesto</li>
+            </ul>
+            </div>
+    </section>
+              <!--Usar estilo externos-->
+    <section class="contactos">
+            <h2>Contactos</h2>
+            <p>Puedes escribirme a: <strong>johnmeran-@gmail.com</strong> <br>
+            También puedo recibir llamada a: <strong>8090000000</strong> </p>
+    </section>
+    <!--<aside> para estilo externo-->
+    <aside class="adicional">
+        <h3>Información Adicional</h3>
+        <p>Hago videos de todos lo aprendido y los comparto con mi seguidores.</p>
+        <h4>Sígueme en mis redes</h4>
+        <ul class="redes-sociales">
+            <li><a href="https://github.com/" target="_blank">GitHub"></a></li>
+            <li><a href="https://facebook.com/" target="_blank">Facebook"></a></li>
+            <li><a href="https://instagram.com/" target="_blank">Instagram"></a></li>
+            <li><a href="https://twitter.com/" target="_blank">Twitter"></a></li>
+            <li><a href="https://linkedin.com/" target="_blank">LinkedIn"></a></li>
+        </ul>
+
+    </aside>
+
+    <footer>
+        <p>© Mi pagina Personal</p>
+    </footer>
+
+</body>
+</html>
